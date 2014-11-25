@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+<name>mapred.job.tracker</name>
+<value>mas:9101</value>
+</property>
+<property>
+<name>mapred.task.tracker.http.address</name>
+<value>0.0.0.0:50061</value>
+<description>默认为50061, 是task tracker的http server端口</description>
+</property>
+
+<property>
+<name>mapred.job.tracker.http.address</name>
+<value>0.0.0.0:50030</value>
+<description></description>
+</property>
+
+</configuration>
